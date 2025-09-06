@@ -1,0 +1,27 @@
+{
+  "name": "fifa-world-cup-scraper",
+  "version": "1.0.0",
+  "description": "Scrape FIFA World Cup finals data from Wikipedia and append to Google Sheets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node simple-scraper.js",
+    "sheets": "node googleSheetsClient.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^17.2.2",
+    "googleapis": "^100.0.0"
+  },
+  "keywords": [
+    "fifa",
+    "world-cup",
+    "scraping",
+    "wikipedia",
+    "google-sheets",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
